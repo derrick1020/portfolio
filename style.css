@@ -1,0 +1,51 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+    flex:none;
+}
+body {
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 20px;
+}
+header {
+    background-color: black;
+    color: blue;
+}
+footer {
+    position: absolute;
+    left: 40%;
+}
+.info-header {
+    display: block;
+}
+.info-header ul li a {
+    position: absolute;
+    top: 6%;
+    right: 50%;
+    list-style-type: none;
+    padding: 10px 10px 10px 5px;
+    color: white;
+}
+.background {
+    width: 99%;
+   
+}
+.about-center {
+    color:black;
+    margin: 60px 0 75px 0;
+    padding-inline: 20%;
+}
+.Contacts {
+    padding-left: 45%;
+    margin-bottom: 15%;
+
+
+}
+#About-Me {
+    margin: 60px 0 75px 0;
+    border-spacing: 10px;
+    border: 2px dashed blue;
+}
