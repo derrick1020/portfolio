@@ -264,5 +264,8 @@ a {
 
 footer {
   position: absolute;
+  font-size: 20px;
+  color: blue;
+  font-weight: 800;
   bottom: -200%;
 }
