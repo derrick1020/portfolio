@@ -6,7 +6,7 @@ const pro = document.querySelector("#pro");
 const about = document.querySelector("#me");
 
 const tl = new TimelineMax();
-
+//controlling the animations and the time
 tl.fromTo ( hero, 1 , {height: "0" }, {height: "100%" }
 );
 tl.fromTo(
