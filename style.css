@@ -159,12 +159,6 @@ h5 {
   color: red;
 }
 
-.dash {
-  display: flex;
-  justify-content: center;
-  max-width: 100%;
-}
-
 #Github {
   display: flex;
   flex-direction: row;
@@ -172,99 +166,4 @@ h5 {
   padding-left: 2px;
   text-align: center;
   margin: 5%;
-}
-
-.Projects {
-  display: flex;
-  justify-content: center;
-  width: 18%;
-  border-style: solid;
-  border-color: blue;
-  background: linear-gradient(to bottom, yellow, orange, red);
-}
-
-h4 {
-  font-size: 20px;
-}
-
-a:hover {
-  color: yellow;
-}
-
-a {
-  color: black;
-}
-
-.code {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  left: 41%;
-  width: 18%;
-  border-style: solid;
-  border-color: red;
-  background: linear-gradient(to left, aqua, blue, purple);
-}
-
-#genpic {
-  display: flex;
-  justify-content: center;
-  max-width: 100%;
-  height: 133px;
-}
-
-.quiz {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  left: 77%;
-  width: 18%;
-  border-style: solid;
-  border-color: black;
-  background: linear-gradient(to left, green, yellowgreen, yellow);
-}
-
-.qz {
-  display: flex;
-  justify-content: center;
-  max-width: 100%;
-}
-
-.contact {
-  height: 30%;
-  width: 18%;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  left: 41%;
-}
-
-#links {
-  display: flex;
-  justify-content: center;
-  border-style: inset;
-  width: 100%;
-  font-size: 20px;
-  text-align: center;
-  background: linear-gradient(to top, #699, pink, purple);
-}
-
-.in {
-  width: 30px;
-}
-
-.gitcat {
-  width: 30px;
-}
-
-.gmail {
-  width: 30px;
-}
-
-footer {
-  position: absolute;
-  font-size: 20px;
-  color: blue;
-  font-weight: 800;
-  bottom: -200%;
 }
