@@ -1,0 +1,84 @@
+.projects-container {
+  padding-top: 40px;
+  background-image: linear-gradient(
+    to right,
+    rgb(97, 94, 94, 0),
+    rgb(97, 94, 94, 0.3),
+    rgb(97, 94, 94, 0)
+  );
+}
+
+.proj-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.proj-text {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.proj-title {
+  padding-bottom: 10px;
+  color: white;
+}
+
+.proj-descript {
+  max-width: 600px;
+  color: yellow;
+  font-family: 700;
+  padding-bottom: 20px;
+}
+
+.proj-github {
+  color: rgb(255, 255, 255);
+}
+
+.proj-img {
+  width: 320px;
+  height: 200px;
+  border-radius: 80px;
+  box-shadow: rgb(16, 3, 196) 1px 1px 10px 10px;
+}
+
+.proj-img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 950px) {
+  .proj-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .proj-descript {
+    max-width: 400px;
+  }
+
+  .proj-text {
+    font-size: 1.2rem;
+  }
+
+  .proj-img {
+    width: 240px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .proj-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .proj-text {
+    padding: 0 10px 20px 10px;
+    font-size: 1rem;
+  }
+
+  .proj-descript {
+    color: rgb(223, 223, 226);
+  }
+}
